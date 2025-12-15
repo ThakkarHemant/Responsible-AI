@@ -20,7 +20,7 @@ from sentence_transformers import SentenceTransformer, util
 # CONFIGURATION
 
 class Config:
-    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "enteryourkey")
     GROQ_MODEL = "llama-3.1-8b-instant"
     CHROMA_PERSIST_DIR = "./chroma_db"
     EMBEDDING_MODEL = "multi-qa-mpnet-base-dot-v1"
